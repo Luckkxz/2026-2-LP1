@@ -1,0 +1,3 @@
+1. Nos da 10 , por que en la funcion genera una copia del valor que se le ingresa ( 10 ) y trabaja dentro de ella e imprima por el printf , todo con la copia de ese valor mas no afecta a la variable en general por eso en el main sige la variable original.
+2  Creo una funcion int incremento(int x) que tome mi variable lo incremento y ADEMAS me retorne el valor incrementado , luego solo llamo a esa funcion en mi main 
+3. Ver ejem.2.1.2_resuelto

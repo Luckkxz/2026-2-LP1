@@ -1,0 +1,12 @@
+1.En A , las salidas son 1 , 1 , 1 , 0 . Dado que los 1 que son por la llamada de la funcion 
+trabajan con el cont interno y ademas ese contador por cada llamada vuelve al original osea 0 y
+luego le suma 1 , por ese hay 3 "1's" , luego en el printf del main llama a la variable global definida
+fuera del main y la funcion , esa no cambio su valor por ende sigue siendo 0 
+En B imprime 3 , dado que la funcion actua sobre la variable global , en las 3 llamadas del void
+ en el main se aumenta en 1 a cont , dando por esas 3 llamadas el resultado de imprimir 3
+2.Los resultados corresponden a lo evaluado
+3.Ver las respuestas en la carpeta
+4.Dificutal del testeo : Regularmente cambiamos esas variables globales en nuestros algoritmos/programas , declararlos globalmenete 
+puede llevar a problemas de llamadas cuando trabajemos en ellas con funciones como se demostro en los ejemplos anteriores
+Acoplamiento : debido a las relaciones que existen entre estas variables y que regularmente se llaman o usa en determinados entornos 
+lo cual hace confuso el algoritmos . Condicion de carrera en concurrencia : Por la frecuencia en las que lo usamos en estos casos
